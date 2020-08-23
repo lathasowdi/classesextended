@@ -8,15 +8,22 @@ namespace oefening1
 {
     class Afspraak
     { 
-        public string Datum { get; set; }
-        public string UUR { get; set; }
+        public DateTime Datum { get; set; }
+        public int UUR { get; set; }
         public string Naam { get; set; }
 
-        public Afspraak(string datum, string uUR, string naam)
+        public Afspraak(DateTime datum, int uUR, string naam)
         {
             Datum = datum;
             UUR = uUR;
             Naam = naam;
         }
+        public string Afspraakbekijken()
+        {
+            return $"Datum:{Datum}" + "\n"
+                + $"UUR:{UUR}" + "\n"
+                + $"Naam:{Naam}" + "\n";
+        }
+        
     }
 }

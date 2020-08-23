@@ -78,6 +78,9 @@
     <EmbeddedResource Include="oef1.resx">
       <DependentUpon>oef1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="oef2.resx">
+      <DependentUpon>oef2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

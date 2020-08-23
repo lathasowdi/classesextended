@@ -9,11 +9,24 @@ namespace oefening1
     class Dokter
     {
         public string Naam { get; set; }
-        List<Afspraak> AfspraakLijst = new List<Afspraak>();
+      public List<Afspraak> AfspraakLijst { get; set; }
 
         public Dokter(string naam)
         {
             Naam = naam;
+            AfspraakLijst = new List<Afspraak>();
         }
+        public override string ToString()
+        {
+            return Naam;
+        }
+        //public string Kijk()
+        //{
+        //    foreach(var item in AfspraakLijst)
+        //    {
+        //        item.Afspraakbekijken();
+        //    }
+        //}
+
     }
 }
