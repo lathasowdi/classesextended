@@ -28,5 +28,11 @@ namespace oefening1
             oef2 oef = new oef2();
             oef.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            oef3 oef = new oef3();
+            oef.Show();
+        }
     }
 }
