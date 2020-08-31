@@ -321,6 +321,7 @@
             this.Controls.Add(this.label1);
             this.Name = "oef1";
             this.Text = "oef1";
+            this.Load += new System.EventHandler(this.oef1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

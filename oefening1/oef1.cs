@@ -148,7 +148,10 @@ namespace oefening1
                 }
             }
 
-       
+        private void oef1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
